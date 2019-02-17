@@ -227,6 +227,10 @@ class Zend_Validate_File_Upload extends Zend_Validate_Abstract
             }
         }
 
+        if(!is_array($this->_messages)){
+            $this->_messages = array();
+        }
+
         if (count($this->_messages) > 0) {
             return false;
         } else {
