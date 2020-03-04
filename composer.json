@@ -1,6 +1,6 @@
 {
-    "name": "elfxelf/zendframework1-php72",
-    "description": "Zend Framework 1 PHP7.2 compatible",
+    "name": "bluescreen/zendframework1-php72",
+    "description": "Zend Framework 1 PHP7.2 compatible for Legacy projects",
     "type": "library",
     "keywords": [
         "framework",
